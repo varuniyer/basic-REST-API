@@ -6,7 +6,7 @@ var express = require('express'),
 	bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('https://obscure-beach-76422.herokuapp.com/');
+mongoose.connect('mongodb://heroku_nqrlcwbq:5v66ofjoephg0pc7eina6tt40q@ds161194.mlab.com:61194/heroku_nqrlcwbq');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
