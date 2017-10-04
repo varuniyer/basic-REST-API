@@ -19,7 +19,7 @@ exports.create_content = function(req, res) {
 };
 
 exports.read_content = function(req, res) {
-	Content.findById(req.params.contentId, function(err, content) {
+	Content.findById({_id: req.params.contentId}, function(err, content) {
 		if(err) res.send(err);
 		res.json(content);
 	});
