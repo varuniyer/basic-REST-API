@@ -7,6 +7,7 @@ var express = require('express'),
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://heroku_nqrlcwbq:5v66ofjoephg0pc7eina6tt40q@ds161194.mlab.com:61194/heroku_nqrlcwbq');
+//mongoose.connect('mongodb://localhost/Contentdb');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
