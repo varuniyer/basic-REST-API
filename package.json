@@ -1,7 +1,7 @@
 {
-  "name": "ciscoapi",
+  "name": "basic-rest-api",
   "version": "1.0.0",
-  "description": "API for Cisco programming assignment",
+  "description": "A basic REST API to create, read, update, and delete arbitrary JSON objects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,25 +13,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/varuniyer/ciscoApi.git"
+    "url": "git+https://github.com/varuniyer/basic-REST-API.git"
   },
   "keywords": [
-    "Cisco",
+    "REST",
     "API"
   ],
   "author": "Varun Iyer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/varuniyer/ciscoApi/issues"
+    "url": "https://github.com/varuniyer/basic-REST-API/issues"
   },
-  "homepage": "https://github.com/varuniyer/ciscoApi#readme",
+  "homepage": "https://github.com/varuniyer/basic-REST-API#readme",
   "devDependencies": {
     "nodemon": "^1.12.1"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.1",
+    "express": "^4.16.2",
     "mongodb": "^2.2.31",
-    "mongoose": "^4.12.0"
+    "mongoose": "^4.13.2"
   }
 }
