@@ -1,4 +1,4 @@
-# basic-REST-API
+# Basic REST API
 A basic REST API to create, read, update, and delete arbitrary JSON objects
 
 To use locally, type in "mongod" in one terminal instance and then "npm run start" in another.
